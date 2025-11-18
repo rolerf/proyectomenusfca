@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/api_service.dart';
 import 'home_screen.dart';
 import 'registrar_screen.dart'; // Nueva pantalla de registro
-import 'recuperar_password_screen.dart'; // Nueva pantalla de recuperación
+import 'recuperar_password_screen1.dart'; // Nueva pantalla de recuperación
 
 class LoginScreen extends StatefulWidget {
   @override
