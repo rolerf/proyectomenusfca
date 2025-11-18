@@ -1,0 +1,84 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.buildlog/
+.dart_server/
+pubspec.lock
+flutter_*.png
+
+# Flutter build outputs
+build/
+generated_plugin_registrant.dart
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+android/key.properties
+android/.idea/
+*.jks
+*.keystore
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/build/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Runner.xcworkspace/
+macos/build/
+
+# Windows
+windows/flutter/ephemeral/
+windows/build/
+
+# Linux
+linux/flutter/ephemeral/
+linux/build/
+
+# Web
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+
+# Desktop
+**/ephemeral/
+
+# Logs
+*.log
+
+# Packages
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+*.tmp
+*.swp
+*.lock
+
+# Firebase / sensitive
+google-services.json
+GoogleService-Info.plist
+firebase_app_id_file.json
