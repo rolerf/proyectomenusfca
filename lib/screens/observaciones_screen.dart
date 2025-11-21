@@ -44,6 +44,7 @@ class _ObservacionesScreenState extends State<ObservacionesScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(title: Text("Registrar Observaciones")),
       body: Padding(
         padding: EdgeInsets.all(20),

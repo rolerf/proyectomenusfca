@@ -66,6 +66,7 @@ class _VerificarTokenScreenState extends State<VerificarTokenScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(title: Text("Verificar Código")),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),

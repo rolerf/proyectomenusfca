@@ -32,6 +32,7 @@ class _SensoresScreenState extends State<SensoresScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(title: Text("Datos Sensores")),
       body:
           cargando

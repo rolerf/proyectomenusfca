@@ -12,6 +12,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(title: Text("Sistema IoT Riego F.C.A"), centerTitle: true),
       body: Padding(
         padding: EdgeInsets.all(20),
