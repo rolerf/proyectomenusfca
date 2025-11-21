@@ -43,6 +43,7 @@ class _CambiarPasswordScreenState extends State<CambiarPasswordScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(title: Text("Cambiar Contraseña")),
       body: Padding(
         padding: EdgeInsets.all(20),

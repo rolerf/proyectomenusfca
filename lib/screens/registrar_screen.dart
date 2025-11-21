@@ -60,6 +60,7 @@ class _RegistrarScreenState extends State<RegistrarScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(title: Text("Registrar Nuevo Usuario")),
       body: Padding(
         padding: EdgeInsets.all(20),
